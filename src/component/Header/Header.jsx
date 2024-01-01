@@ -21,11 +21,10 @@ const Header = () => {
       menu.classList.toggle('hidden');
     });
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []); // Empty dependency array ensures that the effect runs only once on mount
+  }, []);
 
   const headerClassName = `site-header w-100${isScrolled ? ' position-fixed site-header-scrolled' : ''}`;
 
@@ -36,7 +35,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center me-5">
               <a href="/" className="text-white text-2xl font-bold ">
-                <img src={icon} width={100} height={80} style={{margin: '-10px'}}/>
+                <img src={icon} width={100} height={80} style={{ margin: '-10px' }} />
               </a>
             </div>
             <div className="hidden lg:flex w-full justify-center">
@@ -61,9 +60,14 @@ const Header = () => {
       </nav>
       <div className="hidden bg-black" id="mobile-menu-content">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-4">
-          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">Home</a>
-          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">About</a>
-          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">Contact</a>
+          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">Solution</a>
+          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">News and Insights</a>
+          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">About Us</a>
+          <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">Contact Us</a>
+          <div className='space-y-2'>
+            <li><a href="#" title="Sign In" target="_self" className="custom-button">Sign In</a></li>
+            <li><a href="#" title="Join Us" target="_self" className="custom-button">Join Us</a></li>
+          </div>
         </div>
       </div>
     </header>

@@ -20,26 +20,26 @@
   height: 80px;
   top: 13.333333333333336px;
   left: 13.333333333333336px;
-  background: #e15b64;
+  background: #00BCD5;
   animation: ldio-mu3z2yc4pdk 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
   animation-delay: -0.3s;
 }
 .ldio-mu3z2yc4pdk div:nth-child(2) {
   top: 13.333333333333336px;
   left: 106.66666666666666px;
-  background: #f47e60;
+  background: #CDDC39;
   animation-delay: -0.2s;
 }
 .ldio-mu3z2yc4pdk div:nth-child(3) {
   top: 106.66666666666666px;
   left: 13.333333333333336px;
-  background: #abbd81;
+  background: #FF7143;
   animation-delay: 0s;
 }
 .ldio-mu3z2yc4pdk div:nth-child(4) {
   top: 106.66666666666666px;
   left: 106.66666666666666px;
-  background: #f8b26a;
+  background: #FFC108;
   animation-delay: -0.1s;
 }
 .loadingio-spinner-cube-w3fef3gl9f {

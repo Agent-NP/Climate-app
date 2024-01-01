@@ -84,6 +84,14 @@ a {
   text-decoration: none !important;
 }
 
+.custom-button[title="Sign In"]{
+  background: #CDDC39;
+}
+
+.custom-button[title="Join Us"]{
+  background: #FF7143;
+}
+
 .custom-button:hover {
   background: #7662f2;
   border-color: #7662f2;

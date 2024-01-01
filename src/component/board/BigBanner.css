@@ -112,7 +112,7 @@
     background: #fc7e15;
   }
   section.hero-banner.hero-style-homepage .inner-content-homepage-hero {
-    margin-bottom: 43px;
+    margin-bottom: calc(100% / 11.1);
   }
   section.hero-banner.hero-style-homepage .inner-content-homepage-hero h1 {
     font-weight: 600;
@@ -278,6 +278,15 @@
 
 @media (max-width: 768px) {
   section.hero-banner {
-    padding-top: 120px;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.hero-banner.hero-style-homepage .inner-content-homepage-outer {
+    width: 100vw;
+    height: 76vh;
+    padding-top: 76px;
   }
 }
