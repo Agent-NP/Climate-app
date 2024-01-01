@@ -15,7 +15,7 @@ const BigBanner = () => {
                             </div>
 
                             <div className="float-left w-100 position-relative d-flex justify-content-center align-items-center buttons-container">
-                                <a href="https://axaclimateschool.com/get-in-touch/" title="Get in Touch" target="_self" className="cta-button">
+                                <a href="#" title="Get in Touch" target="_self" className="cta-button">
                                     Get in Touch
                                 </a>
 

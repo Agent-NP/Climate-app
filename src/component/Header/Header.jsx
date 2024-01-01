@@ -18,7 +18,11 @@ const Header = () => {
     const menu = document.querySelector('#mobile-menu-content');
 
     btn.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
+      if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+      } else {
+        menu.classList.add('hidden');
+      }
     });
 
     return () => {
@@ -64,9 +68,9 @@ const Header = () => {
           <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">News and Insights</a>
           <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">About Us</a>
           <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">Contact Us</a>
-          <div className='space-y-2'>
-            <li><a href="#" title="Sign In" target="_self" className="custom-button">Sign In</a></li>
-            <li><a href="#" title="Join Us" target="_self" className="custom-button">Join Us</a></li>
+          <div className='space-y-2 flex flex-col'>
+            <a href="#" title="Sign In" target="_self" className="custom-button">Sign In</a>
+            <a href="#" title="Join Us" target="_self" className="custom-button">Join Us</a>
           </div>
         </div>
       </div>

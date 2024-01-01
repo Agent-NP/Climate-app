@@ -1,9 +1,9 @@
 import React from 'react';
 import BigBanner from '../component/board/BigBanner';
-import Header from "../component/Header/Header";
+import Header from "../component/header/Header";
 import HomeCard from '../component/card/HomeCard';
 import ResourceBoard from '../component/board/ResourceBoard';
-import Footer from '../component/footer/footer';
+import Footer from '../component/footer/Footer';
 
 function Home(props) {
     return (
