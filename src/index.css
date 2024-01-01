@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importing Fonts */
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/static/Nunito-Regular.ttf") format("truetype");
+}
+
+/* Bold font */
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/static/Nunito-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/* Light font */
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/static/Nunito-Light.ttf") format("truetype");
+  font-weight: lighter;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* custom_primary: #00BCD5
+
+RGBA: rgba(0, 188, 213, 1)
+custom_secondary: #CDDC39
+
+RGBA: rgba(205, 220, 57, 1)
+custom_tertiary: #FF7143
+
+RGBA: rgba(255, 113, 67, 1)
+custom_light: #FFC108
+
+RGBA: rgba(255, 193, 8, 1)
+custom_loud: #EA1E63
+
+RGBA: rgba(234, 30, 99, 1) */

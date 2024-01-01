@@ -1,0 +1,352 @@
+/*! CSS Used from: https://axaclimateschool.com/wp-content/themes/axa-within/dist/css/app.css ; media=all */
+@media all {
+  .content p {
+    line-height: inherit;
+  }
+  .content > :last-child {
+    margin: 0;
+  }
+  .content a {
+    color: #000;
+  }
+  .content a:hover {
+    color: #00ccff;
+  }
+  h6 {
+    font-family: "Sora", sans-serif;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  .site-footer {
+    background-color: #000;
+    padding-top: 65px;
+    padding-bottom: 56px;
+  }
+  .site-footer .row.top-footer {
+    margin-bottom: 61px;
+  }
+  .site-footer .row.bottom-footer .copyright-footer__logo img {
+    height: 45px;
+  }
+  .site-footer .row.bottom-footer p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+  }
+  .site-footer .row.bottom-footer nav {
+    float: left;
+    width: auto;
+  }
+  .site-footer .row.bottom-footer nav > div {
+    float: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .site-footer .row.bottom-footer nav > div ul.menu {
+    float: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .site-footer .row.bottom-footer nav > div ul.menu li {
+    float: left;
+    width: auto;
+    margin: 0 78px 0 0;
+    padding: 0;
+  }
+  .site-footer .row.bottom-footer nav > div ul.menu li:last-child {
+    margin: 0;
+  }
+  .site-footer .row.bottom-footer nav > div ul.menu li a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .site-footer .row.bottom-footer nav > div ul.menu li a:hover {
+    color: #fc7e14;
+  }
+  .site-footer .footer-menus-container {
+    width: calc(538px + 47px);
+    padding-right: 47px;
+    padding-top: 70px;
+  }
+  .site-footer .footer-menus-container .footer-section {
+    width: 228px;
+    max-width: 50%;
+  }
+  .site-footer .footer-menus-container .footer-section h6 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    margin-bottom: 19px;
+  }
+  .site-footer .footer-menus-container .footer-section nav {
+    clear: both;
+  }
+  .site-footer .footer-menus-container .footer-section nav > div {
+    float: left;
+    width: auto;
+  }
+  .site-footer .footer-menus-container .footer-section nav > div ul.menu {
+    float: left;
+    width: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .site-footer .footer-menus-container .footer-section nav > div ul.menu li {
+    float: left;
+    width: auto;
+    clear: both;
+    margin-bottom: 9px;
+  }
+  .site-footer .footer-menus-container .footer-section nav > div ul.menu li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .site-footer
+    .footer-menus-container
+    .footer-section
+    nav
+    > div
+    ul.menu
+    li
+    a:hover {
+    color: #00ccff;
+  }
+  .site-footer .footer-content-block .content {
+    clear: both;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .site-footer .footer-content-block .content > * {
+    line-height: inherit;
+  }
+  .site-footer .footer-content-block .content > :last-child {
+    margin: 0;
+  }
+  .site-footer .footer-content-block .content.has-mb {
+    margin-bottom: 15px;
+  }
+  .site-footer .footer-content-block .content a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .site-footer .footer-content-block .content a:hover {
+    opacity: 0.6;
+  }
+  .site-footer .footer-content-block .content svg {
+    position: relative;
+    margin-right: 5px !important;
+  }
+  .site-footer .footer-content-block nav {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 74px;
+  }
+  .site-footer .footer-content-block nav ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .site-footer .footer-content-block nav ul li {
+    float: left;
+    width: auto;
+    margin: 0 17.21px 0 0;
+  }
+  .site-footer .footer-content-block nav ul li a {
+    float: left;
+    width: 44.9px;
+    height: 44.9px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 10px;
+  }
+  .site-footer .footer-content-block nav ul li a svg {
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .site-footer .footer-content-block nav ul li a:hover {
+    opacity: 0.6;
+  }
+  .site-footer .footer-content-block nav ul li:last-child {
+    margin: 0;
+  }
+  .site-footer__logo {
+    display: block;
+    margin-bottom: 33px;
+    float: left;
+  }
+  .site-footer__logo img {
+    max-height: 105px;
+  }
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+      max-width: 384px;
+    }
+    .site-footer .row.top-footer {
+      margin-bottom: 46px;
+      padding-bottom: 52px;
+      position: relative;
+    }
+    .site-footer .row.top-footer:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0.75rem;
+      width: calc(100% - 1.5rem);
+      height: 1px;
+      background: #fff;
+    }
+    .site-footer .row.top-footer .footer-content-block .site-footer__logo {
+      height: 59px;
+    }
+    .site-footer .row.top-footer .footer-content-block .site-footer__logo img {
+      height: 100%;
+      width: auto;
+      float: left;
+    }
+    .site-footer .row.top-footer .footer-content-block nav {
+      margin-top: 28px;
+    }
+    .site-footer .footer-menus-container {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 52px;
+    }
+    .site-footer .footer-menus-container .footer-section h6 {
+      font-size: 24px;
+      line-height: 27px;
+    }
+    .site-footer .row.bottom-footer .footer-col {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+    .site-footer .row.bottom-footer .footer-col .copyright-footer__logo {
+      height: 48px;
+      margin: 0 0 24px 0 !important;
+      order: 1;
+    }
+    .site-footer .row.bottom-footer .footer-col .copyright-footer__logo img {
+      height: 100%;
+      width: auto;
+      float: left;
+    }
+    .site-footer .row.bottom-footer .footer-col p {
+      margin-bottom: 40px;
+      order: 2;
+    }
+    .site-footer .row.bottom-footer .footer-col nav {
+      order: 3;
+    }
+    .site-footer .row.bottom-footer .footer-col nav > div ul.menu li {
+      margin: 0 0 5px 0;
+      padding: 0 0 0 0;
+      position: relative;
+    }
+    .site-footer
+      .row.bottom-footer
+      .footer-col
+      nav
+      > div
+      ul.menu
+      li:nth-child(odd) {
+      clear: both;
+      margin: 0 10px 0 0;
+      padding: 0 10px 0 0;
+    }
+    .site-footer
+      .row.bottom-footer
+      .footer-col
+      nav
+      > div
+      ul.menu
+      li:nth-child(odd):before {
+      content: "";
+      position: absolute;
+      right: -1px;
+      top: 6px;
+      width: 2px;
+      height: 14px;
+      background: #fff;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+      width: 100%;
+      max-width: 540px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+      width: 100%;
+      max-width: 720px;
+    }
+    .site-footer .footer-menus-container {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 40px;
+    }
+    .site-footer .row.bottom-footer .copyright-footer__logo {
+      height: 30px;
+    }
+    .site-footer .row.bottom-footer .copyright-footer__logo img {
+      height: 100%;
+      width: auto;
+      float: left;
+    }
+    .site-footer .row.bottom-footer p {
+      font-size: 12px;
+    }
+    .site-footer .row.bottom-footer nav > div ul.menu li {
+      margin: 0 30px 0 0;
+    }
+    .site-footer .row.bottom-footer nav > div ul.menu li a {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+      width: 100%;
+      max-width: 960px;
+    }
+    .site-footer .footer-menus-container {
+      width: 500px;
+      padding-right: 0;
+    }
+    .site-footer .row.bottom-footer p {
+      font-size: 14px;
+    }
+    .site-footer .row.bottom-footer nav > div ul.menu li {
+      margin: 0 45px 0 0;
+    }
+    .site-footer .row.bottom-footer nav > div ul.menu li a {
+      font-size: 14px;
+    }
+  }
+}
+/*! CSS Used from: https://axaclimateschool.com/wp-content/themes/axa-within/src/scss/custom_fixes3.css ; media=all */
+@media all {
+  .site-footer .row.bottom-footer .copyright-footer__logo img,
+  .site-footer__logo img {
+    width: auto;
+  }
+}

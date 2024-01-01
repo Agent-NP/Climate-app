@@ -1,0 +1,180 @@
+
+@media all {
+  .content p {
+    line-height: inherit;
+  }
+  .content > :last-child {
+    margin: 0;
+  }
+  h2,
+  h4 {
+    font-family: "Sora", sans-serif;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  .padding-bottom-0 {
+    padding-bottom: 0;
+  }
+  .padding-top-0 {
+    padding-top: 0;
+  }
+  .margin-top-0 {
+    margin-top: 0;
+  }
+  .margin-bottom-70 {
+    margin-bottom: 4.375rem;
+  }
+  .card-block {
+    background: #fff;
+  }
+  .card-block h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 23px;
+  }
+  section.boxed-in-columns .row.title-row {
+    margin-bottom: 47px;
+  }
+  section.boxed-in-columns .row.title-row h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  section.boxed-in-columns .post-cards-col.colour-scheme-red .card-block {
+    border-color: #fc4450;
+  }
+  section.boxed-in-columns
+    .post-cards-col.colour-scheme-red
+    .card-block
+    .card-block-inner
+    h4 {
+    color: #fc4450;
+  }
+  section.boxed-in-columns .post-cards-col .card-block {
+    padding: 50px 30px 4px 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    border-bottom-width: 6px;
+  }
+  section.boxed-in-columns .post-cards-col .card-block .boxed-cards-col {
+    margin-bottom: 54px;
+  }
+  section.boxed-in-columns .post-cards-col .card-block .card-block-inner {
+    padding: 0 20px;
+  }
+  section.boxed-in-columns
+    .post-cards-col
+    .card-block
+    .card-block-inner
+    .icon-container {
+    height: 60px;
+    margin-bottom: 14px;
+  }
+  section.boxed-in-columns .post-cards-col .card-block .card-block-inner h4 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 0 13px 0;
+    padding: 0;
+  }
+  section.boxed-in-columns
+    .post-cards-col
+    .card-block
+    .card-block-inner
+    .content {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #000000;
+  }
+  section.boxed-in-columns
+    .post-cards-col
+    .card-block
+    .card-block-inner
+    .content
+    > * {
+    line-height: inherit;
+  }
+  section.boxed-in-columns
+    .post-cards-col
+    .card-block
+    .card-block-inner
+    .content
+    > :last-child {
+    margin: 0;
+  }
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+      max-width: 384px;
+    }
+    .row.title-row h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    section.boxed-in-columns .row.title-row {
+      margin-bottom: 32px;
+    }
+    section.boxed-in-columns .row.title-row h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    section.boxed-in-columns .post-cards-col .card-block {
+      padding: 40px 30px 40px 30px;
+    }
+    section.boxed-in-columns .post-cards-col .card-block .boxed-cards-col {
+      margin-bottom: 45px;
+    }
+    section.boxed-in-columns
+      .post-cards-col
+      .card-block
+      .boxed-cards-col:last-child {
+      margin-bottom: 0;
+    }
+    section.boxed-in-columns
+      .post-cards-col
+      .card-block
+      .boxed-cards-col
+      .card-block-inner {
+      padding: 0;
+    }
+    .margin-bottom-70 {
+      margin-bottom: 2.91667rem;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+      width: 100%;
+      max-width: 540px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+      width: 100%;
+      max-width: 720px;
+    }
+    section.boxed-in-columns .post-cards-col .card-block .card-block-inner {
+      padding: 0 10px;
+    }
+    section.boxed-in-columns .post-cards-col .card-block .card-block-inner h4 {
+      font-size: 18px;
+      line-height: 33px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+      width: 100%;
+      max-width: 960px;
+    }
+    section.boxed-in-columns .post-cards-col .card-block .card-block-inner {
+      padding: 0 10px;
+    }
+    section.boxed-in-columns .post-cards-col .card-block .card-block-inner h4 {
+      font-size: 18px;
+      line-height: 33px;
+    }
+  }
+}

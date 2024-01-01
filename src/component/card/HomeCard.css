@@ -1,0 +1,148 @@
+@media all{ 
+
+  html { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+  } 
+
+  .card-block { 
+    background: #fff;
+  } 
+
+  .post-cards-col .card-block  { 
+    padding: 35px 30px; 
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    border-bottom-width: 6px;
+  } 
+}     
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){ 
+  .post-cards-col .card-block  { 
+    padding: 25px 20px;
+  } 
+}     
+
+@media all{ 
+  .post-cards-col.colour-scheme-purple .card-block  { 
+    border-color: #7662F2;
+  } 
+
+  .post-cards-col.colour-scheme-blue .card-block  { 
+    border-color: #01CCFF;
+  } 
+
+  .post-cards-col.colour-scheme-red .card-block  { 
+    border-color: #FC4450;
+  } 
+
+  .post-cards-col.colour-scheme-orange .card-block  { 
+    border-color: #FC7E15;
+  } 
+
+  h4 { 
+    margin-top: 0; 
+    margin-bottom: 0.5rem; 
+    font-weight: 500; 
+    line-height: 1.2;
+  } 
+
+  h4 { 
+    font-size: calc(1.275rem + 0.3vw);
+  } 
+
+  h4 { 
+    font-family: 'Sora', sans-serif;
+  } 
+
+  .card-block h4  { 
+    font-weight: 600; 
+    font-size: 22px; 
+    line-height: 23px;
+  } 
+
+  .post-cards-col .card-block h4  { 
+    font-weight: 600; 
+    font-size: 22px; 
+    line-height: 23px; 
+    color: #000000; 
+    margin: 0 0 19px 0; 
+    padding: 0;
+  } 
+}     
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){ 
+  .post-cards-col .card-block h4  { 
+    font-size: 18px; 
+    line-height: 21px;
+  } 
+}     
+
+@media all{ 
+  .post-cards-col.colour-scheme-purple .card-block h4  { 
+    color: #7662F2;
+  } 
+
+  .post-cards-col .card-block .content  { 
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 23px; 
+    color: #000000;
+  } 
+
+  .post-cards-col.colour-scheme-blue .card-block h4  { 
+    color: #01CCFF;
+  } 
+
+  .post-cards-col.colour-scheme-red .card-block h4  { 
+    color: #FC4450;
+  } 
+
+  .post-cards-col.colour-scheme-orange .card-block h4  { 
+    color: #FC7E15;
+  } 
+
+  img { 
+    vertical-align: middle;
+  } 
+
+  img { 
+    border-style: none;
+  } 
+
+  img { 
+    height: auto; 
+    max-width: 100%;
+  } 
+
+  .post-cards-col .card-block .icon-container img  { 
+    height: 100%;
+  } 
+
+  .post-cards-col .card-block .icon-container img  { 
+    width: auto;
+  } 
+
+  p { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+  } 
+
+  .content p  { 
+    line-height: inherit;
+  } 
+
+  .content > :last-child  { 
+    margin: 0;
+  } 
+
+  .post-cards-col .card-block .content > *  { 
+    line-height: inherit;
+  } 
+
+  .post-cards-col .card-block .content > :last-child  { 
+    margin: 0;
+  } 
+}     
+
